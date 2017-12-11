@@ -1,0 +1,19 @@
+{
+  "name": "game_shelf",
+  "version": "1.0.0",
+  "description": "Game collection app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"No tests\"",
+    "nodemon": "nodemon --watch ./src --watch ./js ./src/server.js"
+  },
+  "author": "Ben Thorn",
+  "license": "ISC",
+  "dependencies": {
+    "giantbombing-api": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
